@@ -1,7 +1,8 @@
-ntlmRelayToEWS
+MsExchangeRelay based on ntlmRelayToEWS
 ============
 
 Based on ntlmRelayToEWS - Author: Arno0x0x - [@Arno0x0x](http://twitter.com/Arno0x0x)
+
 Modified by MISTeam 
 
 **ntlmRelayToEWS** is a tool for performing ntlm relay attacks on Exchange Web Services (EWS). It spawns an SMBListener on port 445 and an HTTPListener on port 80, waiting for incoming connection from the victim. Once the victim connects to one of the listeners, an NTLM negociation occurs and is relayed to the target EWS server.
@@ -72,6 +73,7 @@ In order to get the victim to send his credentials to ntlmRelayToEWS you can use
 Credits
 ----------------
 Based on [Impacket](https://github.com/CoreSecurity/impacket) and *ntlmrelayx* by Alberto Solino [@agsolino](https://twitter.com/agsolino).
+Modified by MISTeam
 
 DISCLAIMER
 ----------------
